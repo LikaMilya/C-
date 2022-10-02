@@ -7,12 +7,16 @@ int y = int.Parse(Console.ReadLine()!);
 if (x > y)
 {
     int max = x;
+    int min = y;
     
     Console.WriteLine($" максимальное число {x}");
+    Console.WriteLine($" минимальное число {y}");
 }
 else
 {
     int max = y;
+    int min = x;
    
-    Console.WriteLine($" максимальное числочисло {y}");
+    Console.WriteLine($" минимальное числочисло {y}");
+    Console.WriteLine($" максимальное число {x}");
 }
