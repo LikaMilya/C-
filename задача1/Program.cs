@@ -17,6 +17,6 @@ else
     int max = y;
     int min = x;
    
-    Console.WriteLine($" минимальное числочисло {y}");
-    Console.WriteLine($" максимальное число {x}");
+    Console.WriteLine($" максимальное число {y}");
+    Console.WriteLine($" минимальное число {x}");
 }
